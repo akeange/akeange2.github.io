@@ -1,0 +1,352 @@
+body{
+	padding:0px;
+	margin:0px;
+	height:100px	;
+	
+}
+
+
+nav ul{
+	padding:0px;
+	margin:0px;
+}
+
+nav{
+	background-color: skyblue;
+	width: 100%;
+	text-align: center;
+
+}
+.submenu1,.submenu2,.submenu3{
+	display: none;
+}
+
+nav>ul>li{
+	display:inline-block;
+	padding:20px;
+	
+}
+nav>ul>li>a{
+	color:white;
+}
+
+
+nav a{
+	text-decoration: none;
+	color:white;
+}
+
+nav a:hover{
+	color:white;
+	opacity: 0.7;
+}
+
+.home1:hover{
+	background-color: grey;
+}
+.home2:hover{
+	background-color: blue;
+}
+.home3:hover{
+	background-color: grey;
+}
+.home4:hover{
+	background-color: blue;
+}
+
+
+.home2:hover .submenu1{
+	position:absolute;
+	top:64px;
+	left:509px;
+	width:200px;
+	display:block;
+	background-color: #465858;
+}
+
+.submenu1 li,.submenu2 li,.submenu3 li{
+list-style-type: none;
+padding:5px;
+border-bottom:1px solid black;
+
+}
+
+.home3:hover .submenu2{
+	position:absolute;
+	top:64px;
+	left: 609px;
+    display: block;
+    background-color:#2774c3; 
+    width:200px;
+}
+
+.home4:hover .submenu3{
+	position:absolute;
+	top:64px;
+	left: 767px;
+    display: block;
+    background-color:#465858; 
+    width:200px;
+}
+
+.submenu1 li:hover{
+	background-color: #768697;
+}
+
+.submenu2 li:hover{
+		background-color:#82adda ;
+}
+.submenu3 li:hover{
+	background-color:#768697; 
+}
+
+.baniere1{
+	border-radius:20px ;
+	width: 850px;
+	height: 400px;
+	background-image: url("BANIERE CV.png");
+	margin-top: 40px ;
+	margin-left: 15px;
+}
+.tcv{
+	height: 370px;
+	width:350px;
+	margin-left:45px ;
+	margin-top:15px ;
+	border-radius: 10px;
+}
+.monnom{
+	position:relative;
+	top:-320px;
+	left:410px;
+	color:white;
+	font-weight: bolder;
+}
+.cvpara1{
+	position:relative;
+	top:-300px;
+	margin-left:410px;
+	color:black;
+	font-weight: bolder;
+}
+.contact{
+	height:30px ;
+	width:30px;
+	margin-left: 410px;
+	position:relative;
+	top:-290px;
+}
+.mai{
+	height:30px ;
+	width:30px;
+	margin-left: 410px;
+	position:relative;
+	top:-273px;
+}
+.para{
+	margin-left:455px ;
+	position:relative;
+	top:-348px;
+	color:white;
+	font-weight: bolder;
+}
+
+.competence{
+	height: 450px;
+	width: 700px;
+	background-image:url("back compe.png"); 
+	margin-left: 250px ;
+	margin-top: 50px;
+	border-radius: 20px;
+}
+.pcom{
+	margin-left:230px ;
+	position:relative;
+	top:20px;
+	color:orange;
+	text-decoration: underline;
+
+}
+
+.listcompe{
+	margin-left: 100px;
+	position: relative;
+	top:50px;
+}
+
+.scompetence{
+	color:#272323;
+	list-style-type: none;
+}
+.scompetences{
+	color:#272323;
+}
+
+.formation{
+	height: 300px;
+	width:810px;
+	background-color: grey;
+	margin-top: 40px;
+	margin-left:418px;
+	border-radius: 20px;
+	background-image: url("forma img.png")
+
+ }
+
+ .formation h3{
+ 	color:white;
+ 	margin-left: 330px;
+ 	position: relative;
+ 	top:10px;
+ 	text-decoration: underline;
+
+ }
+
+ .diplom{
+ 	color:white;
+ 	margin-left: 100px;
+ 	position:relative;
+ 	top:20px;
+ }
+.diplom2{
+	color:white;
+	margin-left: 100px;
+	position:relative;
+	top:50px;
+}
+.langu{
+	height: 110px;
+	width:220px;
+	background-color: skyblue;
+	padding:20px;
+	border-radius: 20px;
+	margin-left: 80px;
+	position:relative;
+	top:-200px;
+	margin-bottom: 0px;
+}
+.langu:hover{
+	background-color: #b8b4b4;
+}
+.nexaffiche{
+	width:33%;
+	height: 300px;
+	margin-left: 60px;
+	margin-bottom: 0px;
+
+}
+.afficheelroi{
+	width:33%;
+	height: 300px;
+	margin-left: 530px;
+	margin-top:-328px ;
+}
+aside{
+	height:350px ;
+	width: 300px;
+	background-image: url("sand.jpg");
+	margin-left:970px ;
+	border-radius: 10px;
+	border-style:groove ;
+	position:relative;
+	top:-327px;
+	padding-left:10px;
+	margin-bottom: 0px;
+}
+aside h3{
+	margin-left: 55px;
+	color:white;
+	font-family: garamond;
+	font-weight: bolder ;
+	margin-bottom: 0px;
+
+}
+
+.pdes{
+	color:black;
+	margin-bottom: 0px;
+}
+
+.mesaff{
+	margin-left:60px;
+	color:red ;
+	margin-bottom: 0px;
+
+}
+footer{
+	height:300px;
+	background-color: skyblue;
+	width:100%;
+	
+}
+
+
+
+.zone1{
+	background-color: gold;
+	width:35%;
+	height: 300px;
+	margin-left:400px;
+	position:relative;
+	top:-230px;
+}
+footer>ul{
+	position:relative;
+	top:60px;
+
+}
+footer a{
+	text-decoration: none;
+
+}
+footer li{
+	list-style-type: none;
+}
+
+#bt1{
+	margin-top: 80px;
+	margin-left:110px ;
+	
+
+}
+#bt1 a{
+	color:white;
+}
+
+.zone1 ul{
+	position:relative;
+	top:40px;
+	margin-left: 20px;
+
+
+}
+.soucompe a{
+
+	color:white;
+}
+.soucompe li{
+	position:relative;
+	top:-30px;
+}
+
+.zone2{
+	
+	width:390px;
+	position:relative;
+left:870px;
+top:-480px;
+height:250px ;
+
+}
+.sfor a{
+	color:blue;
+}
+.sfor a:hover{
+	color:white;
+}
+.mailt{
+	text-decoration: none;
+	color: white;
+}
+
+
